@@ -57,5 +57,5 @@ SELECT * FROM usuarios WHERE nome LIKE 'Jo_o%';
 -- Update --
 UPDATE usuarios SET endereco = 'Nova Rua, 123' WHERE email = 'joao@example.com';
 
--- delete --
+- delete -
 DELETE FROM reservas WHERE status = 'cancelada';
